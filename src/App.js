@@ -2,9 +2,9 @@ import React from "react";
 
 const App = () => {
   return (
-    <div className="w-full h-screen flex items-center bg-[#00523F]">
+    <div className="max-w-full min-h-screen flex items-center bg-[#00523F]">
       <div className="p-12 w-full md:w-1/2 h-2/3 ">
-        <form className="flex flex-col w-full shadow-md shadow-[#A6A4A4B5] items-center justify-center h-full px-5 space-y-6 z-11">
+        <form className="flex flex-col w-full shadow-md shadow-[#A6A4A4B5] items-center justify-center h-full p-5 space-y-6 z-11">
           <h2 className="font-bold text-[85px] text-[#FFFFFFCC] w-full h-[122px] text-center md:text-start ">
             LOGIN
           </h2>
@@ -25,11 +25,11 @@ const App = () => {
       </div>
       <img
         src="/Ellipse3.svg"
-        className="absolute bottom-[-30px] right-[-30px] hidden md:block md:w-1/2 lg:w-1/2"
+        className="absolute bottom-0 right-0 hidden md:block md:w-1/2 "
       />
       <img
         src="/jogging.svg"
-        className="absolute rotate-[-18deg] lg:right-10 lg:bottom-25 md:right-2 md:bottom-10 hidden md:block md:w-1/2 lg:w-1/2"
+        className="absolute rotate-[-18deg] hidden lg:w-1/2 lg:right-25 lg:bottom-35 md:w-1/3 md:right-33 md:bottom-40  md:block  "
       />
     </div>
   );
