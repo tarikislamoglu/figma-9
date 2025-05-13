@@ -3,9 +3,9 @@ import React from "react";
 const App = () => {
   return (
     <div className="w-full h-screen flex items-center bg-[#00523F]">
-      <div className="  p-12  w-full md:w-1/2 h-2/3 ">
+      <div className="p-12 w-full md:w-1/2 h-2/3 ">
         <form className="flex flex-col w-full shadow-md shadow-[#A6A4A4B5] items-center justify-center h-full px-5 space-y-6 z-11">
-          <h2 className="font-bold text-[85px] text-[#FFFFFFCC] w-full h-[122px] ">
+          <h2 className="font-bold text-[85px] text-[#FFFFFFCC] w-full h-[122px] text-center md:text-start ">
             LOGIN
           </h2>
           <input
