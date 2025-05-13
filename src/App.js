@@ -10,10 +10,12 @@ const App = () => {
           </h2>
           <input
             placeholder="Username"
+            type="text"
             className="border-2 rounded-md px-5 py-2 border-[#FFFFFF80] text-[#fff] w-full"
           />
           <input
             placeholder="Password"
+            type="password"
             className="border-2 rounded-md px-5 py-2 border-[#FFFFFF80] text-[#fff] w-full"
           />
           <button className="px-3 py-2 rounded-md bg-[#FFFFFFCC] w-full">
@@ -27,7 +29,7 @@ const App = () => {
       />
       <img
         src="/jogging.svg"
-        className="absolute rotate-[-18] lg:right-10 lg:bottom-25 md:right-2 md:bottom-10 hidden md:block md:w-1/2 lg:w-1/2"
+        className="absolute rotate-[-18deg] lg:right-10 lg:bottom-25 md:right-2 md:bottom-10 hidden md:block md:w-1/2 lg:w-1/2"
       />
     </div>
   );
